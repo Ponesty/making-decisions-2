@@ -17,7 +17,7 @@ let firstItem = arr[0];
 
 //Code Here
 lastItemRemoved = arr.pop();
-//console.log(arr);
+console.log(arr);
 
 ////////// PROBLEM 3 //////////
 
@@ -30,9 +30,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-// for(let i = 0; i< family.length; i++){
-//   console.log(family[i]);
-// }
+for(let i = 0; i< family.length; i++){
+  console.log(family[i]);
+}
 
 
 
@@ -48,12 +48,12 @@ let evensArr = []
 */
 
 //Code Here
-// for(let i = 0; i< nums.length; i++){
-//   if( nums[i] % 2 === 0){
-//     evensArr.push(nums[i]);
-//   }
-// }
-// console.log(evensArr);
+for(let i = 0; i< nums.length; i++){
+  if( nums[i] % 2 === 0){
+    evensArr.push(nums[i]);
+  }
+}
+console.log(evensArr);
 
 
 
@@ -68,21 +68,21 @@ var score = 74
 */
 
 //Code Here
-// if( score >= 90){
-//   console.log('A');
-// }
-// else if(score < 90 && score >=80){
-//   console.log('B');
-// }
-// else if(score <80 && score >= 70){
-//   console.log('C');
-// }
-// else if(score < 70 && score >=60){
-//   console.log('D');
-// }
-// else{
-//   console.log('F');
-// }
+if( score >= 90){
+  console.log('A');
+}
+else if(score < 90 && score >=80){
+  console.log('B');
+}
+else if(score <80 && score >= 70){
+  console.log('C');
+}
+else if(score < 70 && score >=60){
+  console.log('D');
+}
+else{
+  console.log('F');
+}
 
 ////////// Intermediate Problems //////////
 
@@ -125,6 +125,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 // Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
 
 //Code Here
+for(let i = 0; i< listOfNumbers.length; i++){
+  if(listOfNumbers[i] % 3 === 0){
+    console.log(`${listOfNumbers[i]} is divisible by 3`);
+  }
+}
 
 
 ////////// PROBLEM 9 //////////
